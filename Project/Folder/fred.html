@@ -1,0 +1,701 @@
+ <!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.css'><link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<script src="./script.js"></script>
+
+
+<style>
+#tall{
+  height: 70vh;
+  object-fit: cover;
+}
+#cont2{
+  min-height: 70vh;
+  background-attachment: fixed;
+  background-color: rgb(18, 18, 18);
+  box-shadow: 10px 2px 300px 30px black;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+
+}
+.img-fluid{
+  object-fit: cover;
+}
+
+#tex{
+  box-shadow: 10px 2px 300px 30px black;
+  color: #DD4B39;
+}
+.navbar-brand{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  transition: 1s ease-out;
+}
+.logo{
+  height: 40px;
+  object-fit: cover;
+  margin-top: -20px;
+  transition: 1s;
+  box-shadow: 2px 3px 2px #DD4B39;
+
+}
+.logo:hover{
+  transform: scale(1.1);
+
+}
+#BTW{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+#BTW:hover{
+  transform: scale(1.1);
+  background-color: #DD4B39;
+}
+.nav-link:hover{
+  background-color: #DD4B39;
+  transition: 1s all;
+  transform: scale(1.1);
+
+}
+</style>
+</head>
+<body style="overflow-x: hidden;">
+
+  <header class="header-main content-wrap" id="top">  
+    <a class="navbar-brand" href="index.html">
+      <img src="../Folder/images/logo.png" class="logo" alt="">
+    </a>
+
+    <div class="b-info fixed-top">
+      <nav class="navbar navbar-toggleable-* text-light bg-white navigation">
+       <button class="navbar-toggler navbar-toggler-right hamburger" type="button" data-toggle="collapse1" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bars"></span> 
+      </button>
+  
+      <div class="collapse navbar-collapse menu collapse show " id="navbarSupportedContent" aria-expanded="true">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="fred.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="classes.html">CLASSES</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SHOP</a>
+          </li>
+          <div class="dropdown-divider"></div>
+
+          <li class="nav-item">
+            <a class="nav-link" href="trainer.html">TRAINER</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="membership.html">MEMBERSHIP</a>
+          </li>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <div class="dropdown-divider"></div>
+
+          <li class="nav-item">
+            <a class="nav-link" id="BTW" href="myaccount.html">MY ACCOUNT</a>
+          </li>
+          <div class="dropdown-divider"></div>
+
+        </ul>
+      </div> 
+    </nav>
+  </div>  
+  </header>  
+  
+
+
+  
+  
+
+
+
+
+    <div class="container-fluid " id="tall">
+<div class='owl-carousel' id='owlCarousel'>
+  <div class='slide'>
+    <img class='owl-item-bg img-fluid' src='../Folder/images/bg6.webp'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>ARE YOU READY?</h3>
+      <h2>Get fit!, strong and motivated</h2>
+      <button id="neonShadow"><span class="shine">Readmore</span></button>
+    </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg img-fluid' src='../Folder/images/bg7.webp'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>Welcome</h3>
+      <h2>Build your body, transform your life</h2>
+      <button id="neonShadow"><span class="shine">Readmore</span></button>
+
+    </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg img-fluid' src='../Folder/images/bg3.webp'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>IT'S ALL ABOUT WHAT YOU CAN ACHIEVE</h3>
+      <h2>Go for it</h2>
+      <button id="neonShadow"><span class="shine">Readmore</span></button>
+
+    </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg img-fluid' src='../Folder/images/gg.jpg'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>BELIEVE IN YOUR STRENGTH</h3>
+      <h2>Work your way through it</h2>
+      <button id="neonShadow"><span class="shine">Readmore</span></button>
+
+    </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg img-fluid' src='../Folder/images/bg5.webp'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>STAY FIT</h3>
+      <h2>Work out your way</h2>
+      <button id="neonShadow"><span class="shine">Readmore</span></button>
+
+    </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg img-fluid' src='../Folder/images/bg4.webp'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>ENERGY</h3>
+      <h2>Empower yourself to make the changes you need to make</h2>
+      <button id="neonShadow"><span class="shine">Readmore</span></button>
+
+    </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg img-fluid' src='../Folder/images/gat.jpg'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>WELCOME</h3>
+      <h2>Get ready to burn</h2>
+      <button id="neonShadow"><span class="shine">Readmore</span></button>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<h1 class="text-center  pt-3 " id="tex">WELCOME TO THE GYM!</h1>
+<p class="text-center  display-h1">Take care of your body. It's the only place you have to live..</p>
+
+
+<section class="hero-section">
+  <div class="card-grid">
+    <a class="card" href="classes.html">
+      <div class="card__background" style="background-image: url(../Folder/images/cad1.jpg)"></div>
+      <div class="card__content">
+        <p class="card__category">WEIGHT LOSS</p>
+        <h3 class="card__heading">PILATES</h3>
+      </div>
+    </a>
+    <a class="card" href="classes.html">
+      <div class="card__background" style="background-image: url(../Folder/images/cad2.jpg)"></div>
+      <div class="card__content">
+         <p class="card__category">BODY BUILDING</p>
+        <h3 class="card__heading">WEIGHT LIFTING</h3>
+      </div>
+    </a>
+    <a class="card" href="classes.html">
+      <div class="card__background" style="background-image: url(../Folder/images/cad3.jpg)"></div>
+      <div class="card__content">
+        <p class="card__category">WEIGHT LOSS</p>
+        <h3 class="card__heading">AEROBICS</h3>
+      </div>
+    </li>
+    <a class="card" href="classes.html">
+      <div class="card__background" style="background-image: url(../Folder/images/cad4.jpg)"></div>
+      <div class="card__content">
+        <p class="card__category">WEIGHT LOSS</p>
+        <h3 class="card__heading">SPINNING</h3>
+      </div>
+    </a>
+  <div>
+</section>
+
+
+
+
+<div class="container-fluid  mt-5" id="cont2">
+  <h1 class="text-right " id="tex">OUR BLOG</h1>
+  <p class="text-center text-white">Read our blog for science-backed tips, smart workout plans, and the motivation you need to put both of those things into action.</p>
+
+
+<div class="webinar-grid">
+
+  <a href="blog.html" class="link-block">
+    <div class="jumbotron left-right-jumbotron-block">
+      <div class="webinar-image-container">
+        <img src="../Folder/images/blog1.jpg">
+      </div>
+      <h1 class="dundas-blue-text-long">
+        JUGGING IS THE BEST
+      </h1>
+      
+      <div class="webinar-content-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In amet repellendus at voluptatum reprehenderit, deleniti repellat debitis voluptatibus fugiat alias. </p>
+        <span class="dundas-blue-link">Visit Blog &gt;</span>
+      </div>
+    </div>
+  </a>
+  <a href="blog.html" class="link-block">
+    <div class="jumbotron left-right-jumbotron-block">
+      <div class="webinar-image-container">
+        <img src="../Folder/images/blog2.webp">
+      </div>
+      <h1 class="dundas-blue-text-long">
+        A LITTLE REST
+      </h1>
+     
+      <div class="webinar-content-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In amet repellendus at voluptatum reprehenderit, deleniti repellat debitis voluptatibus fugiat alias. </p>
+        <span class="dundas-blue-link">Visit Blog &gt;</span>
+      </div>
+    </div>
+  </a>
+  <a href="blog.html" class="link-block">
+    <div class="jumbotron left-right-jumbotron-block">
+      <div class="webinar-image-container">
+        <img src="../Folder/images/blog3.webp">
+      </div>
+      <h1 class="dundas-blue-text-long">
+        MUSCLE STRETCHING
+      </h1>
+      
+      <div class="webinar-content-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In amet repellendus at voluptatum reprehenderit, deleniti repellat debitis voluptatibus fugiat alias. </p>
+        <span class="dundas-blue-link">Visit Blog &gt;</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="blog.html" class="link-block">
+    <div class="jumbotron left-right-jumbotron-block">
+      <div class="webinar-image-container">
+        <img src="../Folder/images/blog4.webp">
+      </div>
+      <h1 class="dundas-blue-text-long">
+        HOW FAR CAN YOU GO?
+      </h1>
+     
+      <div class="webinar-content-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In amet repellendus at voluptatum reprehenderit, deleniti repellat debitis voluptatibus fugiat alias. </p>
+        <span class="dundas-blue-link">Visit Blog &gt;</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="blog.html" class="link-block">
+    <div class="jumbotron left-right-jumbotron-block">
+      <div class="webinar-image-container">
+        <img src="../Folder/images/blog5.webp">
+      </div>
+      <h1 class="dundas-blue-text-long">
+        SHOW YOUR STRENGTH
+      </h1>
+
+      <div class="webinar-content-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In amet repellendus at voluptatum reprehenderit, deleniti repellat debitis voluptatibus fugiat alias. </p>
+        <span class="dundas-blue-link">Visit Blog &gt;</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="blog.html" class="link-block">
+    <div class="jumbotron left-right-jumbotron-block">
+      <div class="webinar-image-container">
+        <img src="../Folder/images/blog6.webp">
+      </div>
+      <h1 class="dundas-blue-text-long">
+        KIDS TIMES ARE SPECIAL
+      </h1>
+      
+      <div class="webinar-content-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In amet repellendus at voluptatum reprehenderit, deleniti repellat debitis voluptatibus fugiat alias. </p>
+        <span class="dundas-blue-link">Visit Blog &gt;</span>
+      </div>
+    </div>
+  </a>
+
+</div>
+</div>
+<br><br><br>
+
+<div class="container-fluid" id="conty">
+  <div class="pox">
+    <h1 class="text-center pt-5" id="tex">FIT SHOP</h1>
+    <p class="text-center text-dark">Get in shape with a variety of products that we offer with a discounted price.
+    </p>
+    <div class="text-center">
+    <a name="" id="" class="btn" href="#" role="button">Shop Now &gt;</a>
+  </div>
+
+    <div class="row row-cols-1 row-cols-md-4 row-cols-sm-1">
+      <div class="col">
+
+        
+          <img src="../Folder/images/fix1.png" class="img-fluid"
+          onmouseover="changeImage(this, '../Folder/images/fix2.png')"
+          onclick="changeImage(this, '../Folder/images/fix3.png')" 
+          onmouseout="changeImage(this, '../Folder/images/fix4.png')" alt="..." id="just">
+
+
+          
+          
+         
+        
+      </div>
+      <div class="col">
+        
+          
+          <img src="../Folder/images/gix1.png" class="img-fluid" 
+          onmouseover="changeImage(this, '../Folder/images/gix2.png')"
+          onclick="changeImage(this, '../Folder/images/gix3.png')"
+          onmouseout="changeImage(this, '../Folder/images/gix4.png')" alt="..." id="just">
+
+         
+         
+        
+      </div>
+      <div class="col">
+        
+         
+          <img src="../Folder/images/mix1.png" class="img-fluid"
+          onmouseover="changeImage(this, '../Folder/images/mix2.png')"
+          onclick="changeImage(this, '../Folder/images/mix3.png')"
+          onmouseout="changeImage(this, '../Folder/images/mix4.png')" alt="..." id="just">
+
+          
+         
+        
+      </div>
+      <div class="col">
+          
+          <img src="../Folder/images/tix1.png" class="img-fluid"
+          onmouseover="changeImage(this, '../Folder/images/tix2.png')"
+          onclick="changeImage(this, '../Folder/images/tix3.png')"
+          onmouseout="changeImage(this, '../Folder/images/tix4.png')" alt="..." id="just">
+
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="container mt-5">
+  <h1 class="text-center pt-5" id="tex">TEAM OF TRAINERS</h1>
+  <p class="text-center text-dark">Be part of the awesome community, with the help of our professional trainers, you are one step closer to success.
+
+  </p>
+
+  <div class="row row-cols-1 row-cols-md-4 row-cols-sm-1 row-cols-lg-4">
+    <div class="col">
+      <div class="card-">
+        <div class="main-content">
+          <img src="../Folder/images/team1.jpg" alt="">
+        </div>
+        <div class="overlay-content">
+          <p>
+            "CURTIS"
+            <span>- Weight lifter -</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-">
+        <div class="main-content">
+          <img src="../Folder/images/team2.jpg" alt="">
+        </div>
+        <div class="overlay-content">
+          <p>
+            "FABIAN"
+            <span>- Body builder -</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-">
+        <div class="main-content">
+          <img src="../Folder/images/team5.jpg" alt="">
+        </div>
+        <div class="overlay-content">
+          <p>
+            "PABLO"
+            <span>- Nutritionist -</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-">
+        <div class="main-content">
+          <img src="../Folder/images/eam4.jpg" alt="">
+        </div>
+        <div class="overlay-content">
+          <p>
+            "JANE"
+            <span>- Outdoor trainer -</span>
+          </p>
+         </div>
+      </div>
+    </div>
+
+  </div>
+</div><br><br><br><br>
+
+<div class="container-fluid" id="text-area">
+  <div class="sho">
+  <h1 class="text-center m-5 text-white">OUR ADVANTAGE</h1>
+</div>
+  <div class="text-start text-white">
+    <h3 class="tar">Qualified trainers</h3>
+    <p>We're sure that one time or another, you've been fascinated<br> at how a trainer
+       facilitates class and engages learners. Youâ€™ve also most likely observed<br>
+      some of the best qualities of a good trainer and already somewhat have an<br>
+      idea of what attributes make a trainer great at their work.</p><br><br>
+    <h3 class="tar">Multiple classes</h3>
+    <p>We provides multiple classes to our clints Zumba, Aerobics, Kickboxing,<br>
+       Strenght, Power yoga, Free weight.</p><br><br>
+
+  </div>
+  <div class="text-end text-white">
+    <h3 class="tar">Individual training</h3>
+    <p>A personal trainer is an individual certified to have a varying degree of<br>
+       knowledge of general fitness involved in exercise prescription and<br>
+        instruction. They motivate clients by setting goals and providing feedback<br>
+         and accountability to clients.</p><br><br>
+         <h3 class="tar">Hightech gym</h3>
+         <p>Monitoring performance during the one-hour workout, from wearable<br>
+           devices to projection screens, which help in getting solidity from long<br>
+            slogans on cardio devices, make use of modern technology to enhance the<br>
+             experience of today's gym exercise.</p><br><br>
+  </div>
+
+
+
+</div>
+
+<div class="container-fluid mt-5 h-70">
+  <h1 class="text-right pt-5" id="tex">OUR PARTNERS</h1>
+  <p class="text-right text-white">Who we love working with, and what makes us great.</p>
+
+  <marquee behavior="scroll" direction="right">
+    <img src="../Folder/images/p1.png" alt="">
+    <img src="../Folder/images/p2.png" alt="">
+    <img src="../Folder/images/p3.png" alt="">
+
+   
+  </marquee>
+
+  <marquee behavior="scroll" direction="left">
+    <img src="../Folder/images/p4.png" alt="">
+    <img src="../Folder/images/p5.png" alt="">
+    <img src="../Folder/images/p6.png" alt="">
+
+   
+
+  </marquee>
+
+</div>
+<br><br><br><br><br><br>
+
+
+
+
+
+<footer id="dk-footer" class="footer" >
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 col-lg-4">
+              <div class="footer-box-info">
+                  <a href="index.html" class="footer-logo">
+                      <img src="../Folder/images/logo.png" alt="footer_logo" class="img-fluid">
+                  </a>
+                  <p class="footer-info-text text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, suscipit nemo adipisci consectetur non autem?                  </p>
+                  <div class="footer-social-link">
+                      <h3>Follow us</h3>
+                      <ul>
+                          <li>
+                              <a href="#">
+                                  <i class="fa fa-facebook"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa fa-twitter"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa fa-google-plus"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa fa-linkedin"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                  <i class="fa fa-instagram"></i>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="footer-awarad">
+                  <img src="images/icon/best.png" alt="">
+                  <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+          </div>
+          <div class="col-md-12 col-lg-8">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="contact-us">
+                          <div class="contact-icon">
+                              <i class="fa fa-map-o" aria-hidden="true"></i>
+                          </div>
+                          <div class="contact-info">
+                              <h3>Fred Gentle</h3>
+                              <p>5353 Road Avenue</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="contact-us contact-us-last">
+                          <div class="contact-icon">
+                              <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          </div>
+                          <div class="contact-info">
+                              <h3>95 711 9 5353</h3>
+                              <p>Give us a call</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 col-lg-6">
+                      <div class="footer-widget footer-left-widget">
+                          <div class="section-heading">
+                              <h3>INFORMATION</h3>
+                              <span class="animate-border border-black"></span>
+                          </div>
+                          <ul>
+                              <li>
+                                  <a href="#">Home</a>
+                              </li>
+                              <li>
+                                  <a href="#">Classes</a>
+                              </li>
+                              <li>
+                                  <a href="#">Blog</a>
+                              </li>
+                              <li>
+                                  <a href="#">Shop</a>
+                              </li>
+                          </ul>
+                          <ul>
+                              <li>
+                                  <a href="#">Our Team</a>
+                              </li>
+                              <li>
+                                  <a href="#">Contact</a>
+                              </li>
+                              
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-12 col-lg-6">
+                      <div class="footer-widget">
+                          <div class="section-heading">
+                              <h3>WORKING HOURS</h3>
+                              <span class="animate-border border-black"></span>
+                              <ul>
+                                <li class="text-white">Monday - Thursday <span style="background-color:  #DD4B39;"> 06:00 - 23:00</span></li>
+                                <li class="text-white">Saturday  <span style="background-color:  #DD4B39;"> 10:00 - 19:00</span></li>
+                                <li class="text-white">Sunday <span style="background-color:  #DD4B39;"> closed </i></span></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="copyright">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <span>Copyright © 2019, All Right Reserved Seobin</span>
+              </div>
+              </div>
+      </div>
+  </div>
+
+
+  <div  class="back-to-top">
+      <a href="#top" class="btn btn-dark" title="Back to Top" style="display: block;">
+          <i class="fa fa-angle-up"></i>
+      </a>
+  </div>
+</footer>
+
+
+<script>
+  function changeImage(target, url) {
+    target.src = url;
+  }
+</script>
+
+
+
+
+
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
+  
